@@ -1,0 +1,6 @@
+{
+    "AppName": "无忧电教管理",
+    "AppId": "cn.unuai",
+    "WeexBundle": "index.js",
+    "SplashText": "无忧电教管理"
+}

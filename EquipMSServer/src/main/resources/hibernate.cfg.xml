@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://localhost:3306/ems</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+    <mapping class="cn.unuai.entity.LoginEntity"/>
+    <mapping class="cn.unuai.entity.DepartmentEntity"/>
+      <mapping class="cn.unuai.entity.RoleEntity"/>
+      <mapping class="cn.unuai.entity.UserEntity"/>
+    <mapping class="cn.unuai.entity.KindEntity"/>
+      <mapping class="cn.unuai.entity.FactoryEntity"/>
+    <mapping class="cn.unuai.entity.EquipmentEntity"/>
+    <mapping class="cn.unuai.entity.InstockEntity"/>
+      <mapping class="cn.unuai.entity.OutstockEntity"/>
+      <mapping class="cn.unuai.entity.StockEntity"/>
+      <mapping class="cn.unuai.entity.BuyEntity"/>
+      <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

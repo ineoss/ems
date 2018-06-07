@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_back.png",
+        "source": "D:\\EquipMSApp\\platforms\\android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_back.png"
+    },
+    {
+        "merged": "D:\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_open.png",
+        "source": "D:\\EquipMSApp\\platforms\\android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_open.png"
+    },
+    {
+        "merged": "D:\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_photo.png",
+        "source": "D:\\EquipMSApp\\platforms\\android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_photo.png"
+    },
+    {
+        "merged": "D:\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_refresh.png",
+        "source": "D:\\EquipMSApp\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_refresh.png"
+    },
+    {
+        "merged": "D:\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_scan.png",
+        "source": "D:\\EquipMSApp\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_scan.png"
+    },
+    {
+        "merged": "D:\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_close.png",
+        "source": "D:\\EquipMSApp\\platforms\\android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_close.png"
+    },
+    {
+        "merged": "D:\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome.png",
+        "source": "D:\\EquipMSApp\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\welcome.png"
+    }
+]
