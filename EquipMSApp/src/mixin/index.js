@@ -7,7 +7,8 @@ export default {
 		KEY_TOKEN: 'ems_token',
 		KEY_EQUIPTYPE: 'ems_equipType',
 		KEY_EQUIPSTATE: 'ems_equipState',
-		KEY_FACTORYLIST: 'ems_factoryList'
+		KEY_FACTORYLIST: 'ems_factoryList',
+		ROLE_ADMIN: '1001'
 	}),
 	methods: {
 		checkMights(page, mights) {

@@ -25,4 +25,7 @@ public interface StockDao extends JpaRepository<StockEntity, Long> {
 
     @Query("select sum(num) from StockEntity")
     public Long getStockNum();
+
+    @Query("select count(s.id) from StockEntity  s where s.num<s.min or s.num>s.max ")
+    public int getOverNum();
 }

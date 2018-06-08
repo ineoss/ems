@@ -59,7 +59,7 @@
 			<text style=" height: 80px;width: 300px;line-height: 80px;">该类设备平均寿命：</text>
 			<text class="input">{{equip.age}}天</text>
 		</div>
-		<div class="button-group" v-if="equip.buyDept==userDept">
+		<div class="button-group" v-if="equip.buyDept==userDept && userRole==ROLE_ADMIN">
 			<button><text @click="delEquipAlert" class="util" style="background-color:rgba(255,0,0,0.5)">删除设备</text></button>
 			<button><text @click="modifyEquip" class="util" style="background-color:rgb(0, 191, 255)">修改设备信息</text></button>
 		</div>
@@ -80,7 +80,8 @@ export default {
 		return {
 			equip: { image: '/images/default.jpg' },
 			refreshing: false,
-			userDept: ''
+			userDept: '',
+			userRole: ''
 		}
 	},
 	methods: {
@@ -121,7 +122,7 @@ export default {
 		let params = this.getParams()
 		if (params && params.id) {
 			this.get('/getEquipmentInfo', { id: params.id }, (result) => {
-						console.log(result)
+				console.log(result)
 
 				if (result && result.state == 'success') {
 					this.equip = result.data
@@ -131,6 +132,7 @@ export default {
 		this.getData(this.KEY_USER, (res) => {
 			if (res) {
 				this.userDept = JSON.parse(res).dept
+				this.userRole = JSON.parse(res).role
 			}
 		})
 	},

@@ -14,8 +14,8 @@ export default {
     return {
       user:
         {
-          username: 'ss26',
-          password: '123456'
+          username: '',
+          password: ''
         }
     }
   },

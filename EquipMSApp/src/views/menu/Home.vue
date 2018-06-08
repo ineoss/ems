@@ -21,7 +21,8 @@
                 <text>设备使用率（使用中/总）：{{equipment.usingRate}}</text>
                 <div class="divide"></div>
                 <text>设备总资产：{{equipment.totalAsset}}元</text>
-                
+                <div class="divide"></div>
+                <text>超出库存数量的设备种类：{{equipment.overNum}}种</text> 
         </div>
         </cell>
         <cell class="cell">
@@ -168,11 +169,10 @@ export default {
   background-color: rgba(222, 184, 135, 0.5);
 }
 .divide {
-        height:2px;
-        width:650px;
-        margin-top:8px;
-        margin-bottom:8px;
-        background-color:rgba(128, 128, 128, 0.6)
-
+  height: 2px;
+  width: 650px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: rgba(128, 128, 128, 0.6);
 }
 </style>

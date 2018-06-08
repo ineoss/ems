@@ -390,12 +390,14 @@ public class EquipmentController {
             int usingCount = equipmentDao.getEquipmentCountByState("%" + Util.STATE_SYZ);//在库设备数量
             float totalAsset = equipmentDao.getotalAssets();
             String usingRate = Util.keep2Point((float) usingCount / (float) count * 100) + "%";
+            int overNum = stockDao.getOverNum();
             HashMap map = new HashMap();
             map.put("count", count);
             map.put("stockCount", stockCount);
             map.put("usingCount", usingCount);
             map.put("usingRate", usingRate);
             map.put("totalAsset", totalAsset);
+            map.put("overNum", overNum);
             return new Res("success", map);
         } catch (Exception e) {
             return new Res("error", null);

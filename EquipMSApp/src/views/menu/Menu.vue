@@ -48,60 +48,22 @@ export default {
             });
         }
     },
+    created() {
+        this.getData(this.KEY_USER, (res) => {
+            if (res) {
+                let role = JSON.parse(res).role
+                this.get("/getMights", { role: role }, (result) => {
+                    if (result && result.state == "success") {
+                        this.menus = result.data
+                    }
+                })
+            }
+        })
+    },
     data() {
         return {
             activeTab: 0,
-            menus: [
-                {
-                    name: '设备管理', page: 'EquipmentManagement',
-                    submenus: [
-                        { name: '添加设备', page: 'AddEquip', icon: '&#xe75e;', color: 'olivedrab' },
-                        { name: '设备入库', page: 'InStock', icon: '&#xe659;', color: 'goldenrod' },
-                        { name: '设备出库', page: 'OutStock', icon: '&#xe602;', color: 'goldenrod' },
-                        { name: '库存列表', page: 'StockList', icon: '&#xe631;', color: 'mediumvioletred' },
-                        { name: '设备列表', page: 'EquipList', icon: '&#xea35;', color: 'mediumvioletred' }
-                    ]
-                },
-                {
-                    name: '购置管理', page: 'BuyManagement',
-                    submenus: [
-                        { name: '添加购置计划', page: 'AddBuyPlan', icon: '&#xe75e;', color: 'goldenrod' },
-                        { name: '购置计划列表', page: 'BuyPlanList', icon: '&#xe62e;', color: 'green' },
-                        { name: '购置历史', page: 'BuyHistory', icon: '&#xe635;', color: 'green' },
-                    ]
-                },
-                {
-                    name: '借用管理', page: 'BorrowManagement',
-                    submenus: [
-                        { name: '可借用设备列表', page: 'CanBorrowList', icon: '&#xe618;', color: 'goldenrod' },
-                        { name: '设备借用审核', page: 'BorrowAuditingList', icon: '&#xe649;', color: 'green' },
-                        { name: '设备归还', page: 'BorrowedList', icon: '&#xe659;', color: 'green' },
-                        { name: '我的申请', page: 'MyBorrowApply', icon: '&#xe63b;', color: 'green' },
-                    ]
-                },
-                {
-                    name: '维修管理', page: 'RepaireManagement',
-                    submenus: [
-                        { name: '维修信息添加', page: 'AddRepaire', icon: '&#xe63a;', color: 'goldenrod' },
-                        { name: '设备维修历史', page: 'RepaireHistory', icon: '&#xe62e;', color: 'green' },
-                        { name: '近期需检修设备', page: 'NeedOverhaul', icon: '&#xe624;', color: 'goldenrod' },
-                    ]
-                },
-                {
-                    name: '报废管理', page: 'GiveupManagement',
-                    submenus: [
-                        { name: '设备报废', page: 'AddGiveup', icon: '&#xe606;', color: 'goldenrod' },
-                        { name: '报废设备列表', page: 'GiveupList', icon: '&#xe635;', color: 'green' },
-                    ]
-                },
-                {
-                    name: '用户管理', page: 'UserManagement',
-                    submenus: [
-                        { name: '添加用户', page: 'AddUser', icon: '&#xe630;', color: 'orange' },
-                        { name: '用户列表', page: 'UserList', icon: '&#xe634;', color: 'olivedrab' },
-                    ]
-                },
-            ]
+            menus: []
         }
     },
     components: {

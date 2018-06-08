@@ -42,7 +42,7 @@
 			<text class="label">角色：</text>
 			<text class="input">{{user.rolename}}</text>
 		</div>
-		<div class="button-group" v-if="user.dept==userDept">
+		<div class="button-group" v-if="user.dept==userDept && userRole==ROLE_ADMIN">
 			<button><text @click="delUserAlert" class="util" style="background-color:rgba(255,0,0,0.5)">删除用户</text></button>
 			<button><text @click="modifyUser" class="util" style="background-color:rgb(0, 191, 255)">修改用户</text></button>
 		</div>
@@ -62,7 +62,8 @@ export default {
 		return {
 			user: { avatar: '/avatar/default_avatar.jpg' },
 			refreshing: false,
-			userDept: ''
+			userDept: '',
+			userRole: ''
 		}
 	},
 	methods: {
@@ -111,6 +112,7 @@ export default {
 		this.getData(this.KEY_USER, (res) => {
 			if (res) {
 				this.userDept = JSON.parse(res).dept
+				this.userRole = JSON.parse(res).role
 			}
 		})
 	},
@@ -181,8 +183,8 @@ export default {
   border-radius: 8px;
   padding-left: 16px;
   padding-right: 16px;
-	margin-left:10px;
-	margin-right:10px;
+  margin-left: 10px;
+  margin-right: 10px;
   color: white;
 }
 .loading,

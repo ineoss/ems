@@ -163,6 +163,7 @@ export default {
 .button-text {
   color: #ffffff;
   font-size: 36px;
+  text-align: center;
 }
 .required {
   height: 80px;
