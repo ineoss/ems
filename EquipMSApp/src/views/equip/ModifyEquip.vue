@@ -109,7 +109,7 @@ export default {
         this.post("/modifyEquip", this.equip, (result) => {
           if (result && result.state == 'success') {
             this.$refs.successAlert.show("修改成功")
-          } else if (result && result.state == 'error') {
+          } else if (result && result.state == 'exception') {
             this.$refs.alert.show("添加失败，请重新添加")
           }
         })

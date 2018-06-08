@@ -67,6 +67,6 @@ public interface EquipmentDao extends JpaRepository<EquipmentEntity, Long> {
             "where e.id=g.equip_id and e.equip_type=?1", nativeQuery = true)
     public Double getAvgAge(int type);
 
-    @Query("select e from EquipmentEntity  e")
+    @Query("select e from EquipmentEntity  e where id=?1")
     public EquipmentEntity getOne(int id);
 }

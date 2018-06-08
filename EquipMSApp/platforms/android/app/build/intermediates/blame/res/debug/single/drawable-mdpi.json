@@ -6,5 +6,13 @@
     {
         "merged": "D:\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_refresh.png",
         "source": "D:\\EquipMSApp\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_refresh.png",
+        "source": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_scan.png",
+        "source": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_scan.png"
     }
 ]

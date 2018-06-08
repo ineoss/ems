@@ -115,6 +115,7 @@ export default {
 	},
 	computed: {
 		image() {
+			console.log(server_ip + this.equip.image)
 			return server_ip + this.equip.image
 		}
 	},

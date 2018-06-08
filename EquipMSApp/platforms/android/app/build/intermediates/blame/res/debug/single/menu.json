@@ -4,6 +4,14 @@
         "source": "D:\\EquipMSApp\\platforms\\android\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
+        "merged": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_scan.xml",
+        "source": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\src\\main\\res\\menu\\main_scan.xml"
+    },
+    {
+        "merged": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
         "merged": "D:\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_scan.xml",
         "source": "D:\\EquipMSApp\\platforms\\android\\app\\src\\main\\res\\menu\\main_scan.xml"
     }

@@ -30,21 +30,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\SunShuai\.gradle\caches\modules-2\files-2.1\com.taobao.android\weexplugin-annotation\1.3\f9c594cafe95ab01986863300b2f2993b5777b42\weexplugin-annotation-1.3.jar"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
-        sha1="f9c594cafe95ab01986863300b2f2993b5777b42">
-        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\weexplugin-annotation-1.3_50b3e650f944e722f624e553e10defe2d3aa05f9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="f46121a7c3b3ba958fc27c39447ae205be23ac4a">
-        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.1.0_78083067842bf37e465415909b76242a1166d1fc.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.1.0_b7476c8e2bccb7bd9896e950c85c0229a080aa68.jar" />
     </item>
     <item
         is-multidex="false"
@@ -54,6 +45,15 @@
         revision="26.0.0"
         sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
         <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\okio-1.3.0_242854e3a38d8b4ca8ab111b86d915c7e931f6b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-26.1.0_63bf7ee3f0ba65adaaa833812dbac7e28e7dc87b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,30 +84,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.taobao.android\weex_sdk\0.16.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="9cfcc5fc657d64c980b45db00cd75695d1ce2256">
-        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.taobao.android-weex_sdk-0.16.0_ecb5a6681adb08c6c54b4359e1c1116d54b618a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
         <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\android.arch.lifecycle-runtime-1.0.0_00ea439d083619da24c0aac7dd7a8da615c74012.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\SunShuai\.gradle\caches\modules-2\files-2.1\com.taobao.android\weexplugin-processor\1.3\90f4c5cdb14a255dd3cc341b563271494e8cd941\weexplugin-processor-1.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="90f4c5cdb14a255dd3cc341b563271494e8cd941">
-        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\weexplugin-processor-1.3_fd2c5442da196b5ff39322e703d1d7d8a4adaeb0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,15 +102,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.1.0_989568310d955d6fb921ae05f7356065cd4b7d09.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\SunShuai\.m2\repository\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar"
         jumboMode="false"
         optimize="true"
@@ -138,12 +111,201 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.1.0_989568310d955d6fb921ae05f7356065cd4b7d09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.1.0_e26a23ace938a91cf883ffba931d7b8eac7d45d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-26.1.0_2c8479178bc7fe6de08e40e631f9400c1ffc7e1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\design\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-design-26.1.0_bb4e8c0877670934c1784c985c59af7a3611d0d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.taobao.android\weex_inspector\0.10.0.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="575d72d4a489260763ca62b2b54450fdec3bebd1">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.taobao.android-weex_inspector-0.10.0.5_2f4376a11de6a9e2fe429d165074538f9a332b6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.1.0_5ecb29ebeffb3e913f81e78c4c3cb1d60774a9a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.0\931532e953a477f876f2de18c2e7f16eee01078f\constraint-layout-solver-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="931532e953a477f876f2de18c2e7f16eee01078f">
+        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.1.0_0188ef2a2da9dcd3e7709a164a81c907f8e60a9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_b56339b19b064788bfc35071e80c066fb1fcee99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\transition\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-transition-26.1.0_72a655eb6ae85896a4386e24339d90394d6b4b9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.1.0_275ce5a94653dcd6cb20a741012f8bdf130e48a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\common-1.0.0_b0a6be9bd035108d2152d8aa74b1bf228c9904c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.journeyapps-zxing-android-embedded-3.4.0_d783d7e81d836357f644c0529d4ec678cda9834d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-26.1.0_a40b638b56417a372730dfeec0bcb5f98994884a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\.gradle\caches\modules-2\files-2.1\com.taobao.android\weexplugin-annotation\1.3\f9c594cafe95ab01986863300b2f2993b5777b42\weexplugin-annotation-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f9c594cafe95ab01986863300b2f2993b5777b42">
+        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\weexplugin-annotation-1.3_50b3e650f944e722f624e553e10defe2d3aa05f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f46121a7c3b3ba958fc27c39447ae205be23ac4a">
+        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.1.0_78083067842bf37e465415909b76242a1166d1fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f46121a7c3b3ba958fc27c39447ae205be23ac4a">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.1.0_445f31a5172572cab19cf759ea65b77fa986fc8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.taobao.android\weex_sdk\0.16.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9cfcc5fc657d64c980b45db00cd75695d1ce2256">
+        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.taobao.android-weex_sdk-0.16.0_ecb5a6681adb08c6c54b4359e1c1116d54b618a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\.gradle\caches\modules-2\files-2.1\com.taobao.android\weexplugin-processor\1.3\90f4c5cdb14a255dd3cc341b563271494e8cd941\weexplugin-processor-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="90f4c5cdb14a255dd3cc341b563271494e8cd941">
+        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\weexplugin-processor-1.3_fd2c5442da196b5ff39322e703d1d7d8a4adaeb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.taobao.android\weexplugin-loader\1.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c85f46e9eed1cccfd0bf5df199dd53a66de98651">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.taobao.android-weexplugin-loader-1.3_e71a0ba241a659962f3c9b8e84e7e24540be04f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="508f50705b4fde51a16259f29c854201a3044516">
         <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.1.0_1f50df3adac7ae964b64e3b57532fd2b8fd53c3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\android.arch.lifecycle-runtime-1.0.0_2b161bcf3e578eada166dd163ed151ea74ff6a45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-26.1.0_aee15298942bb5cb1d06a968a33c4ea0d40c2205.jar" />
     </item>
     <item
         is-multidex="false"
@@ -165,12 +327,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.1.0\jars\classes.jar"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\transition\26.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
-        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
-        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.1.0_5ecb29ebeffb3e913f81e78c4c3cb1d60774a9a1.jar" />
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-transition-26.1.0_f813a4e33843c3d7b9746f9c9986880cd550e8cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-26.1.0_419738cb7639ebf48e02ce5330a0eb2e43547b8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-26.1.0_6ba8687f448414615bc7d153fc4b1bef90760f98.jar" />
     </item>
     <item
         is-multidex="false"
@@ -201,24 +381,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\SunShuai\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.0\931532e953a477f876f2de18c2e7f16eee01078f\constraint-layout-solver-1.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="931532e953a477f876f2de18c2e7f16eee01078f">
-        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.1.0_0188ef2a2da9dcd3e7709a164a81c907f8e60a9c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\SunShuai\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
-        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_b56339b19b064788bfc35071e80c066fb1fcee99.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\SunShuai\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.1.46.android\108717c93f7aec31fb86db57cb4ad1e26034c638\fastjson-1.1.46.android.jar"
         jumboMode="false"
         optimize="true"
@@ -228,21 +390,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\transition\26.1.0\jars\classes.jar"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
-        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
-        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-transition-26.1.0_72a655eb6ae85896a4386e24339d90394d6b4b9e.jar" />
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.1.0_b94bab10ffa4c52c90fea895f000b2a4b3d32373.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.4.0\jars\classes.jar"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.taobao.android\weex_sdk\0.16.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
-        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
-        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.journeyapps-zxing-android-embedded-3.4.0_963c58aaa1a388267fac916be93a4c876861ed96.jar" />
+        sha1="9cfcc5fc657d64c980b45db00cd75695d1ce2256">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.taobao.android-weex_sdk-0.16.0_f4d9d096e65f561d415ab99563eb21031847a7b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.yanzhenjie\permission\2.0.0-rc4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="688b352dfc294ed0ff2da26441d547d3c91d33cc">
+        <dex dex="C:\Users\SunShuai\Desktop\ems\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.yanzhenjie-permission-2.0.0-rc4_1e88a96d8fb3b358ae6759044b86eaabf8a440fc.jar" />
     </item>
     <item
         is-multidex="false"
@@ -252,6 +423,15 @@
         revision="26.0.0"
         sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
         <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\core-3.2.1_f433ae59830fe174752b125d06c29f7044803399.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\EquipMSApp\platforms\android\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.journeyapps-zxing-android-embedded-3.4.0_963c58aaa1a388267fac916be93a4c876861ed96.jar" />
     </item>
     <item
         is-multidex="false"
@@ -279,15 +459,6 @@
         revision="26.0.0"
         sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
         <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.1.0_e11001a0bded7b7dce498a5cb6e2f61663e504fb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\SunShuai\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.0"
-        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
-        <dex dex="D:\EquipMSApp\platforms\android\app\build\intermediates\pre-dexed\debug\common-1.0.0_b0a6be9bd035108d2152d8aa74b1bf228c9904c8.jar" />
     </item>
 
 </items>

@@ -213,7 +213,8 @@ public class EquipmentController {
             equipmentDao.saveAndFlush(e);
             return new Res("success", null);
         } catch (Exception ex) {
-            return new Res("error", null);
+            System.err.println(ex);
+            return new Res("exception", null);
         }
     }
 

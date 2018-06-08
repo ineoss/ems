@@ -14,13 +14,13 @@ import java.util.List;
 public interface BuyDao extends JpaRepository<BuyEntity, Long> {
     @Query(value = "SELECT b.id, b. name AS planname, b.equip_name, b.equip_type, b.pl_date, k. name " +
             "FROM buy b, kind k " +
-            "where b.pl_dept = ?1 AND b.equip_type = k.id AND (b.r_date IS NULL OR b.r_date = '') limit ?2,?3", nativeQuery = true)
-    public List getBuyPlanList(int dept, int offset, int pageSize);//购置计划列表
+            "where  b.equip_type = k.id AND (b.r_date IS NULL OR b.r_date = '') limit ?1,?2", nativeQuery = true)
+    public List getBuyPlanList(int offset, int pageSize);//购置计划列表
 
     @Query(value = "SELECT count(b.id) " +
             "FROM buy b, kind k " +
-            "where b.pl_dept =?1 AND b.equip_type = k.id AND (b.r_date IS NULL OR b.r_date = '')", nativeQuery = true)
-    public int getBuyPlanListCount(int dept);//购置计划列表
+            "where  b.equip_type = k.id AND (b.r_date IS NULL OR b.r_date = '')", nativeQuery = true)
+    public int getBuyPlanListCount();//购置计划列表
 
     @Query(value = "select b.id,b.name as planname,b.equip_name,b.equip_type,k.name,b.pl_dept,d.deptname,b.pl_price,b.pl_num,b.pl_date,b.r_date " +
             "from buy b,department d,kind k where b.pl_dept=d.id and b.equip_type=k.id and b.id=?1", nativeQuery = true)

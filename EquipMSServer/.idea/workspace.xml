@@ -91,34 +91,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StockDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/dao/StockDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <marker date="1528387150037" expanded="true" signature="553:653" ph="insert into stock... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RoleController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/RoleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
-              <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+            <state relative-caret-position="434">
+              <caret line="73" column="67" lean-forward="false" selection-start-line="73" selection-start-column="67" selection-end-line="73" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="token.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/util/token.properties">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="169">
+              <caret line="131" column="5" lean-forward="false" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Util.class" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa10092.14630/BOOT-INF/classes/cn/unuai/util/Util.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -127,68 +134,9 @@
       <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/util/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#2151#2152#0" expanded="false" />
-                <element signature="e#2200#2201#0" expanded="false" />
-                <element signature="e#3691#3692#0" expanded="false" />
-                <element signature="e#3732#3733#0" expanded="false" />
-                <element signature="e#5906#5907#0" expanded="false" />
-                <element signature="e#5962#5963#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/entity/RoleEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="e#427#428#0" expanded="false" />
-                <element signature="e#452#453#0" expanded="false" />
-                <element signature="e#489#490#0" expanded="false" />
-                <element signature="e#517#518#0" expanded="false" />
-                <element signature="e#594#595#0" expanded="false" />
-                <element signature="e#625#626#0" expanded="false" />
-                <element signature="e#673#674#0" expanded="false" />
-                <element signature="e#713#714#0" expanded="false" />
-                <element signature="e#784#785#0" expanded="false" />
-                <element signature="e#812#813#0" expanded="false" />
-                <element signature="e#854#855#0" expanded="false" />
-                <element signature="e#888#889#0" expanded="false" />
-                <element signature="e#961#962#0" expanded="false" />
-                <element signature="e#990#991#0" expanded="false" />
-                <element signature="e#1034#1035#0" expanded="false" />
-                <element signature="e#1070#1071#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/dao/RoleDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleRepositoryImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/dao/RoleRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="239">
+              <caret line="115" column="17" lean-forward="true" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -196,10 +144,9 @@
       <file leaf-file-name="EquipmentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/EquipmentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3135">
-              <caret line="399" column="40" lean-forward="false" selection-start-line="399" selection-start-column="40" selection-end-line="399" selection-end-column="40" />
+            <state relative-caret-position="-13">
+              <caret line="207" column="45" lean-forward="false" selection-start-line="207" selection-start-column="37" selection-end-line="207" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="false" />
                 <element signature="method#instock#0;class#EquipmentController#0" expanded="false" />
                 <element signature="method#outstock#0;class#EquipmentController#0" expanded="false" />
                 <element signature="method#getStockList#0;class#EquipmentController#0" expanded="false" />
@@ -216,7 +163,56 @@
                 <element signature="method#returnEquip#0;class#EquipmentController#0" expanded="false" />
                 <element signature="method#getTypeCount#0;class#EquipmentController#0" expanded="false" />
                 <element signature="method#getMyBorrowApply#0;class#EquipmentController#0" expanded="false" />
+                <element signature="method#getEquipmentCountByState#0;class#EquipmentController#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GiveupController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/GiveupController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4">
+              <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/BuyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/dao/BuyDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <marker date="1528470981787" expanded="true" signature="422:634" ph="SELECT b.id,... buy" />
+                <marker date="1528470981787" expanded="true" signature="744:882" ph="SELECT count... buy" />
+                <marker date="1528470981787" expanded="true" signature="972:1198" ph="select b.id,... buy" />
+                <marker date="1528470981787" expanded="true" signature="1282:1376" ph="select 1 fro... buy" />
+                <marker date="1528470981787" expanded="true" signature="1457:1761" ph="select b.id,... buy" />
+                <marker date="1528470981787" expanded="true" signature="1890:2101" ph="select count... buy" />
+                <marker date="1528470981787" expanded="true" signature="2208:2489" ph="select b.id,... buy" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="token.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/util/token.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -238,7 +234,13 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -261,7 +263,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/LoginDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/entity/StockEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/entity/BuyEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/util/token.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/entity/BorrowEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/entity/GiveupEntity.java" />
@@ -275,8 +276,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/KindDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/GetListDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/controller/BuyController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/BuyDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/BorrowDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/GiveupDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/controller/FactoryController.java" />
@@ -286,19 +285,22 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/RoleRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/RoleRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/RoleRepositoryCustom.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/util/Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/controller/GiveupController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/EquipmentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/controller/RepaireController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/RepaireDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/FactoryDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/StockDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/controller/EquipmentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/RoleDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/unuai/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/util/token.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/util/Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/controller/EquipmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/EquipmentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/controller/BuyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/unuai/dao/BuyDao.java" />
       </list>
     </option>
   </component>
@@ -396,6 +398,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -418,6 +423,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="equipment-manage-system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EquipMSServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -437,6 +456,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,36 +486,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="unuai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="equipment-manage-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EquipMSServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unuai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,15 +515,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -542,13 +532,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/SunShuai/Desktop/EquipMSServer/src/main/java/cn/unuai/dao/StockDao.java" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SunShuai\Desktop\ems\EquipMSServer\src\main\resources" />
+      <recent name="C:\Users\SunShuai\Desktop\ems\EquipMSServer\src\main\java\cn\unuai\util" />
       <recent name="C:\Users\SunShuai\Desktop\EquipMSServer\src\main\resources\static" />
       <recent name="C:\Users\SunShuai\Desktop\EquipMSServer\src\main\java\cn\unuai\util" />
       <recent name="C:\Users\SunShuai\Desktop\EquipMSServer\src" />
@@ -1148,7 +1140,9 @@
       <workItem from="1528299347801" duration="6999000" />
       <workItem from="1528386852719" duration="3915000" />
       <workItem from="1528443941844" duration="5634000" />
-      <workItem from="1528458320542" duration="1258000" />
+      <workItem from="1528458320542" duration="1959000" />
+      <workItem from="1528462411537" duration="545000" />
+      <workItem from="1528463128178" duration="5114000" />
     </task>
     <servers />
   </component>
@@ -1161,10 +1155,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="390526000" />
+    <option name="totallyTimeSpent" value="396886000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1178,20 +1172,20 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12417219" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3062914" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44701988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44867548" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27649006" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4834437" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27010623" sideWeight="0.53231937" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810319" sideWeight="0.4676806" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24355084" sideWeight="0.4676806" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1212,7 +1206,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="43" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
@@ -1225,14 +1219,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/entity/InstockEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="18" column="55" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/entity/StockDataEntity.java" />
     <entry file="file://$PROJECT_DIR$/../android/playground/app/src/main/java/com/alibaba/weex/extend/module/WXEventModule.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/entity/KindEntity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1319,20 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/dao/BuyDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/BuyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="79" column="29" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="83" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.6.RELEASE/spring-data-jpa-2.0.6.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1365,13 +1337,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/util/t.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa9528.29360/META-INF/spring.factories" />
     <entry file="file://$PROJECT_DIR$/out/artifacts/EquipMSServer_jar/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/entity/MenuEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1400,24 +1365,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/entity/UserEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="219" column="26" lean-forward="false" selection-start-line="219" selection-start-column="26" selection-end-line="219" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1432,20 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/GiveupController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/dao/EquipmentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="62" column="16" lean-forward="false" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1477,54 +1414,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/EquipmentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3135">
-          <caret line="399" column="40" lean-forward="false" selection-start-line="399" selection-start-column="40" selection-end-line="399" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#instock#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#outstock#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#getStockList#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#getEquipList#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#delEquip#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#modifyStock#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#getCanBorrowList#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#borrowEquip#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#getBorrowAuditingList#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#getBorrowDetail#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#modifyBorrow#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#getBorrowedList#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#getBorrowedDetail#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#returnEquip#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#getTypeCount#0;class#EquipmentController#0" expanded="false" />
-            <element signature="method#getMyBorrowApply#0;class#EquipmentController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/entity/RoleEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#427#428#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#489#490#0" expanded="false" />
-            <element signature="e#517#518#0" expanded="false" />
-            <element signature="e#594#595#0" expanded="false" />
-            <element signature="e#625#626#0" expanded="false" />
-            <element signature="e#673#674#0" expanded="false" />
-            <element signature="e#713#714#0" expanded="false" />
-            <element signature="e#784#785#0" expanded="false" />
-            <element signature="e#812#813#0" expanded="false" />
-            <element signature="e#854#855#0" expanded="false" />
-            <element signature="e#888#889#0" expanded="false" />
-            <element signature="e#961#962#0" expanded="false" />
-            <element signature="e#990#991#0" expanded="false" />
-            <element signature="e#1034#1035#0" expanded="false" />
-            <element signature="e#1070#1071#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1542,22 +1435,6 @@
           <folding>
             <element signature="imports" expanded="false" />
             <marker date="1528387150037" expanded="true" signature="553:653" ph="insert into stock... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2151#2152#0" expanded="false" />
-            <element signature="e#2200#2201#0" expanded="false" />
-            <element signature="e#3691#3692#0" expanded="false" />
-            <element signature="e#3732#3733#0" expanded="false" />
-            <element signature="e#5906#5907#0" expanded="false" />
-            <element signature="e#5962#5963#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1582,19 +1459,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/RoleController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        <state relative-caret-position="494">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#866#867#0" expanded="false" />
+            <element signature="e#928#929#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa10092.13850/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa10092.14630/BOOT-INF/classes/cn/unuai/util/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/util/token.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="228">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="73" column="67" lean-forward="false" selection-start-line="73" selection-start-column="67" selection-end-line="73" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="131" column="5" lean-forward="false" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="115" column="17" lean-forward="true" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/dao/EquipmentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="69" column="58" lean-forward="true" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
+          <folding>
+            <marker date="1528469740181" expanded="true" signature="578:683" ph="select cast(... equipment" />
+            <marker date="1528469740181" expanded="true" signature="1043:1394" ph="SELECT e.id,... Equipment" />
+            <marker date="1528469740181" expanded="true" signature="1101:1153" ph="SELECT k. NA... Kind" />
+            <marker date="1528469740181" expanded="true" signature="1196:1243" ph="SELECT k. NA... Kind" />
+            <marker date="1528469740181" expanded="true" signature="1546:1671" ph="SELECT count... equipment" />
+            <marker date="1528469740181" expanded="true" signature="1801:2287" ph="select e.id,... equipment" />
+            <marker date="1528469740181" expanded="true" signature="1963:2015" ph="select k. na... kind" />
+            <marker date="1528469740181" expanded="true" signature="2065:2112" ph="select k. na... Kind" />
+            <marker date="1528469740181" expanded="true" signature="2373:2568" ph="select count... equipment" />
+            <marker date="1528469740181" expanded="true" signature="2390:2442" ph="select k2.na... kind" />
+            <marker date="1528469740181" expanded="true" signature="2644:2694" ph="select count... equipment" />
+            <marker date="1528469740181" expanded="true" signature="3047:3203" ph="select avg(T... equipment" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/EquipmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="207" column="45" lean-forward="false" selection-start-line="207" selection-start-column="37" selection-end-line="207" selection-end-column="45" />
+          <folding>
+            <element signature="method#instock#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#outstock#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#getStockList#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#getEquipList#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#delEquip#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#modifyStock#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#getCanBorrowList#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#borrowEquip#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#getBorrowAuditingList#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#getBorrowDetail#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#modifyBorrow#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#getBorrowedList#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#getBorrowedDetail#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#returnEquip#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#getTypeCount#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#getMyBorrowApply#0;class#EquipmentController#0" expanded="false" />
+            <element signature="method#getEquipmentCountByState#0;class#EquipmentController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/GiveupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/controller/BuyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="40" column="44" lean-forward="true" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/unuai/dao/BuyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <marker date="1528470981787" expanded="true" signature="422:634" ph="SELECT b.id,... buy" />
+            <marker date="1528470981787" expanded="true" signature="744:882" ph="SELECT count... buy" />
+            <marker date="1528470981787" expanded="true" signature="972:1198" ph="select b.id,... buy" />
+            <marker date="1528470981787" expanded="true" signature="1282:1376" ph="select 1 fro... buy" />
+            <marker date="1528470981787" expanded="true" signature="1457:1761" ph="select b.id,... buy" />
+            <marker date="1528470981787" expanded="true" signature="1890:2101" ph="select count... buy" />
+            <marker date="1528470981787" expanded="true" signature="2208:2489" ph="select b.id,... buy" />
+          </folding>
         </state>
       </provider>
     </entry>

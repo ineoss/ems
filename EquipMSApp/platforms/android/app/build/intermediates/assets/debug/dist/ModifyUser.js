@@ -106,7 +106,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 exports.default = {
-	server_ip: 'http://192.168.1.105:8080',
+	server_ip: 'http://192.168.43.135:8080',
 	pageSize: 20
 };
 
@@ -159,10 +159,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\components\\MiniBar.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\components\\MiniBar.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-dfefed56"
+__vue_options__._scopeId = "data-v-4e409b12"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -247,10 +247,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\menu\\Home.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\menu\\Home.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-620e4dad"
+__vue_options__._scopeId = "data-v-cb51136a"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -291,10 +291,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\menu\\Menu.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\menu\\Menu.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-5b0c2e2d"
+__vue_options__._scopeId = "data-v-d955526a"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -686,10 +686,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\menu\\Me.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\menu\\Me.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-28875134"
+__vue_options__._scopeId = "data-v-e259e0f8"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1067,10 +1067,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\user\\AddUser.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\user\\AddUser.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-10bd20cc"
+__vue_options__._scopeId = "data-v-012f1a3c"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1111,10 +1111,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\user\\UserList.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\user\\UserList.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-159794eb"
+__vue_options__._scopeId = "data-v-3dbf3e89"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1155,10 +1155,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\user\\UserDetail.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\user\\UserDetail.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-0d16dc44"
+__vue_options__._scopeId = "data-v-934f6808"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1199,10 +1199,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\user\\ModifyUser.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\user\\ModifyUser.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-1144d507"
+__vue_options__._scopeId = "data-v-63aee1b6"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1243,10 +1243,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\equip\\AddEquip.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\AddEquip.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-2f5e294c"
+__vue_options__._scopeId = "data-v-75c31508"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1287,10 +1287,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\equip\\InStock.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\InStock.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-5e66cc76"
+__vue_options__._scopeId = "data-v-f2e313d8"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1331,10 +1331,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\equip\\OutStock.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\OutStock.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-f170d99a"
+__vue_options__._scopeId = "data-v-64151d55"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1375,10 +1375,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\equip\\StockList.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\StockList.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-54b9b399"
+__vue_options__._scopeId = "data-v-119d6db7"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1419,10 +1419,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\equip\\EquipList.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\EquipList.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-4ee56ab3"
+__vue_options__._scopeId = "data-v-0bc924d1"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1463,10 +1463,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\equip\\EquipDetail.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\EquipDetail.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-16a415a6"
+__vue_options__._scopeId = "data-v-2981c044"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1507,10 +1507,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\equip\\ModifyEquip.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\ModifyEquip.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-6f596e1b"
+__vue_options__._scopeId = "data-v-fb91ce8e"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1551,10 +1551,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\buy\\AddBuyPlan.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\AddBuyPlan.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-1f951aa3"
+__vue_options__._scopeId = "data-v-073ab676"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1595,10 +1595,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\buy\\BuyPlanList.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\BuyPlanList.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-1d80eba8"
+__vue_options__._scopeId = "data-v-4b36b474"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1639,10 +1639,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\buy\\BuyPlanDetail.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\BuyPlanDetail.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-a739a54a"
+__vue_options__._scopeId = "data-v-817e500e"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1683,10 +1683,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\buy\\ModifyBuyPlan.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\ModifyBuyPlan.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-084b1790"
+__vue_options__._scopeId = "data-v-1b28c22e"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1727,10 +1727,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\buy\\EndBuyPlan.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\EndBuyPlan.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-0faafbae"
+__vue_options__._scopeId = "data-v-560fe76a"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1771,10 +1771,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\buy\\BuyHistory.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\BuyHistory.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-620392e3"
+__vue_options__._scopeId = "data-v-3ed11d05"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1815,10 +1815,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\buy\\BuyHistoryDetail.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\BuyHistoryDetail.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-6d345294"
+__vue_options__._scopeId = "data-v-42738994"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1859,10 +1859,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\borrow\\CanBorrowList.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\borrow\\CanBorrowList.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-f0926cca"
+__vue_options__._scopeId = "data-v-0d6e9b86"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1903,10 +1903,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\borrow\\BorrowAuditingList.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\borrow\\BorrowAuditingList.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-61b3bf32"
+__vue_options__._scopeId = "data-v-3b83ebd0"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1947,10 +1947,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\borrow\\BorrowDetail.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\borrow\\BorrowDetail.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-621d49de"
+__vue_options__._scopeId = "data-v-343ac4fc"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -1991,10 +1991,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\borrow\\BorrowedList.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\borrow\\BorrowedList.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-6e570d6c"
+__vue_options__._scopeId = "data-v-ca1c1730"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -2035,10 +2035,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\borrow\\BorrowedDetail.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\borrow\\BorrowedDetail.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-5dec4b06"
+__vue_options__._scopeId = "data-v-dc95f3ca"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -2079,10 +2079,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\borrow\\MyBorrowApply.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\borrow\\MyBorrowApply.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-fd63fcb6"
+__vue_options__._scopeId = "data-v-1a402b72"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -2123,10 +2123,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\giveup\\AddGiveup.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\giveup\\AddGiveup.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-18c4b51c"
+__vue_options__._scopeId = "data-v-0f4f8284"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -2167,10 +2167,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\giveup\\GiveupList.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\giveup\\GiveupList.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-53c5290b"
+__vue_options__._scopeId = "data-v-66a2d3a9"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -2211,10 +2211,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\giveup\\GiveupDetail.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\giveup\\GiveupDetail.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-628d9dfe"
+__vue_options__._scopeId = "data-v-34ab191c"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -2255,10 +2255,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\repaire\\AddRepaire.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\repaire\\AddRepaire.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-647ce41a"
+__vue_options__._scopeId = "data-v-a556e588"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -2299,10 +2299,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\repaire\\NeedOverhaul.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\repaire\\NeedOverhaul.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-1fe85c1d"
+__vue_options__._scopeId = "data-v-dd0b7682"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -2343,10 +2343,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\repaire\\RepaireHistory.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\repaire\\RepaireHistory.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-522f447f"
+__vue_options__._scopeId = "data-v-b22ce6be"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -2387,10 +2387,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\repaire\\RepaireDetail.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\repaire\\RepaireDetail.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-610b6cb6"
+__vue_options__._scopeId = "data-v-21b69854"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -2430,10 +2430,19 @@ exports.default = {
 			KEY_TOKEN: 'ems_token',
 			KEY_EQUIPTYPE: 'ems_equipType',
 			KEY_EQUIPSTATE: 'ems_equipState',
-			KEY_FACTORYLIST: 'ems_factoryList'
+			KEY_FACTORYLIST: 'ems_factoryList',
+			ROLE_ADMIN: '1001'
 		};
 	},
 	methods: {
+		checkMights: function checkMights(page, mights) {
+			for (var i = 0; i < mights.length; i++) {
+				if (page == mights[i]) {
+					return true;
+				}
+			}
+			return false;
+		},
 		redirect: function redirect(page) {
 			this.$router.replace({ name: page });
 		},
@@ -5289,10 +5298,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\Welcome.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\Welcome.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-652f225a"
+__vue_options__._scopeId = "data-v-707f26f1"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -5442,10 +5451,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\Login.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\Login.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-122feccc"
+__vue_options__._scopeId = "data-v-51ea3138"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -5511,8 +5520,8 @@ exports.default = {
   data: function data() {
     return {
       user: {
-        username: 'ss26',
-        password: '123456'
+        username: '',
+        password: ''
       }
     };
   },
@@ -5583,7 +5592,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\components\\Alert.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\components\\Alert.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__.style = __vue_options__.style || {}
@@ -5703,10 +5712,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-dialog\\index.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-dialog\\index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-47715fba"
+__vue_options__._scopeId = "data-v-0887b4c5"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -6042,10 +6051,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-overlay\\index.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-overlay\\index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-c0f05f9e"
+__vue_options__._scopeId = "data-v-09580062"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -6338,10 +6347,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\components\\ListSelect.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\components\\ListSelect.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-1934a4b1"
+__vue_options__._scopeId = "data-v-4c405f62"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -6705,10 +6714,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\src\\views\\menu\\Main.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\menu\\Main.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-7e886187"
+__vue_options__._scopeId = "data-v-925cebb6"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -6990,6 +6999,7 @@ var server_ip = _config2.default.server_ip; //
 //
 //
 //
+//
 
 exports.default = {
         components: {},
@@ -7109,7 +7119,9 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: ["divide"]
   }), _c('text', [_vm._v("库存设备：" + _vm._s(_vm.equipment.stockCount) + "台")]), _c('text', [_vm._v("使用中设备：" + _vm._s(_vm.equipment.usingCount) + "台")]), _c('text', [_vm._v("设备使用率（使用中/总）：" + _vm._s(_vm.equipment.usingRate))]), _c('div', {
     staticClass: ["divide"]
-  }), _c('text', [_vm._v("设备总资产：" + _vm._s(_vm.equipment.totalAsset) + "元")])])]), _c('cell', {
+  }), _c('text', [_vm._v("设备总资产：" + _vm._s(_vm.equipment.totalAsset) + "元")]), _c('div', {
+    staticClass: ["divide"]
+  }), _c('text', [_vm._v("超出库存数量的设备种类：" + _vm._s(_vm.equipment.overNum) + "种")])])]), _c('cell', {
     staticClass: ["cell"],
     appendAsTree: true,
     attrs: {
@@ -7283,28 +7295,24 @@ exports.default = {
             }, function () {});
         }
     },
+    created: function created() {
+        var _this = this;
+
+        this.getData(this.KEY_USER, function (res) {
+            if (res) {
+                var role = JSON.parse(res).role;
+                _this.get("/getMights", { role: role }, function (result) {
+                    if (result && result.state == "success") {
+                        _this.menus = result.data;
+                    }
+                });
+            }
+        });
+    },
     data: function data() {
         return {
             activeTab: 0,
-            menus: [{
-                name: '设备管理', page: 'EquipmentManagement',
-                submenus: [{ name: '添加设备', page: 'AddEquip', icon: '&#xe75e;', color: 'olivedrab' }, { name: '设备入库', page: 'InStock', icon: '&#xe659;', color: 'goldenrod' }, { name: '设备出库', page: 'OutStock', icon: '&#xe602;', color: 'goldenrod' }, { name: '库存列表', page: 'StockList', icon: '&#xe631;', color: 'mediumvioletred' }, { name: '设备列表', page: 'EquipList', icon: '&#xea35;', color: 'mediumvioletred' }]
-            }, {
-                name: '购置管理', page: 'BuyManagement',
-                submenus: [{ name: '添加购置计划', page: 'AddBuyPlan', icon: '&#xe75e;', color: 'goldenrod' }, { name: '购置计划列表', page: 'BuyPlanList', icon: '&#xe62e;', color: 'green' }, { name: '购置历史', page: 'BuyHistory', icon: '&#xe635;', color: 'green' }]
-            }, {
-                name: '借用管理', page: 'BorrowManagement',
-                submenus: [{ name: '可借用设备列表', page: 'CanBorrowList', icon: '&#xe618;', color: 'goldenrod' }, { name: '设备借用审核', page: 'BorrowAuditingList', icon: '&#xe649;', color: 'green' }, { name: '设备归还', page: 'BorrowedList', icon: '&#xe659;', color: 'green' }, { name: '我的申请', page: 'MyBorrowApply', icon: '&#xe63b;', color: 'green' }]
-            }, {
-                name: '维修管理', page: 'RepaireManagement',
-                submenus: [{ name: '维修信息添加', page: 'AddRepaire', icon: '&#xe63a;', color: 'goldenrod' }, { name: '设备维修历史', page: 'RepaireHistory', icon: '&#xe62e;', color: 'green' }, { name: '近期需检修设备', page: 'NeedOverhaul', icon: '&#xe624;', color: 'goldenrod' }]
-            }, {
-                name: '报废管理', page: 'GiveupManagement',
-                submenus: [{ name: '设备报废', page: 'AddGiveup', icon: '&#xe606;', color: 'goldenrod' }, { name: '报废设备列表', page: 'GiveupList', icon: '&#xe635;', color: 'green' }]
-            }, {
-                name: '用户管理', page: 'UserManagement',
-                submenus: [{ name: '添加用户', page: 'AddUser', icon: '&#xe630;', color: 'orange' }, { name: '用户列表', page: 'UserList', icon: '&#xe634;', color: 'olivedrab' }]
-            }]
+            menus: []
         };
     },
 
@@ -7634,10 +7642,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-cell\\index.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-cell\\index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-610972fd"
+__vue_options__._scopeId = "data-v-1402cfc2"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -9339,10 +9347,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-loading\\index.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-loading\\index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-3d3393c6"
+__vue_options__._scopeId = "data-v-3d3265bb"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -9667,10 +9675,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-popup\\index.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-popup\\index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-3476b24d"
+__vue_options__._scopeId = "data-v-3e26316b"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -10343,7 +10351,8 @@ exports.default = {
 		return {
 			user: { avatar: '/avatar/default_avatar.jpg' },
 			refreshing: false,
-			userDept: ''
+			userDept: '',
+			userRole: ''
 		};
 	},
 
@@ -10399,6 +10408,7 @@ exports.default = {
 		this.getData(this.KEY_USER, function (res) {
 			if (res) {
 				_this3.userDept = JSON.parse(res).dept;
+				_this3.userRole = JSON.parse(res).role;
 			}
 		});
 	},
@@ -10500,7 +10510,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: ["label"]
   }, [_vm._v("角色：")]), _c('text', {
     staticClass: ["input"]
-  }, [_vm._v(_vm._s(_vm.user.rolename))])]), (_vm.user.dept == _vm.userDept) ? _c('div', {
+  }, [_vm._v(_vm._s(_vm.user.rolename))])]), (_vm.user.dept == _vm.userDept && _vm.userRole == _vm.ROLE_ADMIN) ? _c('div', {
     staticClass: ["button-group"]
   }, [_c('button', [_c('text', {
     staticClass: ["util"],
@@ -11159,6 +11169,8 @@ exports.default = {
         _this2.stateList = JSON.parse(res);
       }
     });
+    var date = new Date();
+    this.equip.buyDate = '' + date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
   },
 
   components: {
@@ -11819,7 +11831,8 @@ module.exports = {
   },
   "button-text": {
     "color": "#ffffff",
-    "fontSize": "36"
+    "fontSize": "36",
+    "textAlign": "center"
   },
   "required": {
     "height": "80",
@@ -12505,10 +12518,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "D:\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-popover\\index.vue"
+__vue_options__.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-popover\\index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-59acc446"
+__vue_options__._scopeId = "data-v-950e1838"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -13964,7 +13977,8 @@ exports.default = {
 		return {
 			equip: { image: '/images/default.jpg' },
 			refreshing: false,
-			userDept: ''
+			userDept: '',
+			userRole: ''
 		};
 	},
 
@@ -14003,6 +14017,7 @@ exports.default = {
 	},
 	computed: {
 		image: function image() {
+			console.log(server_ip + this.equip.image);
 			return server_ip + this.equip.image;
 		}
 	},
@@ -14012,6 +14027,8 @@ exports.default = {
 		var params = this.getParams();
 		if (params && params.id) {
 			this.get('/getEquipmentInfo', { id: params.id }, function (result) {
+				console.log(result);
+
 				if (result && result.state == 'success') {
 					_this3.equip = result.data;
 				}
@@ -14020,6 +14037,7 @@ exports.default = {
 		this.getData(this.KEY_USER, function (res) {
 			if (res) {
 				_this3.userDept = JSON.parse(res).dept;
+				_this3.userRole = JSON.parse(res).role;
 			}
 		});
 	},
@@ -14149,7 +14167,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_vm._v("该类设备平均寿命：")]), _c('text', {
     staticClass: ["input"]
-  }, [_vm._v(_vm._s(_vm.equip.age) + "天")])]), (_vm.equip.buyDept == _vm.userDept) ? _c('div', {
+  }, [_vm._v(_vm._s(_vm.equip.age) + "天")])]), (_vm.equip.buyDept == _vm.userDept && _vm.userRole == _vm.ROLE_ADMIN) ? _c('div', {
     staticClass: ["button-group"]
   }, [_c('button', [_c('text', {
     staticClass: ["util"],
@@ -14297,7 +14315,7 @@ exports.default = {
         this.post("/modifyEquip", this.equip, function (result) {
           if (result && result.state == 'success') {
             _this.$refs.successAlert.show("修改成功");
-          } else if (result && result.state == 'error') {
+          } else if (result && result.state == 'exception') {
             _this.$refs.alert.show("添加失败，请重新添加");
           }
         });
@@ -15609,6 +15627,7 @@ exports.default = {
 	data: function data() {
 		return {
 			plan: {},
+			userRole: '',
 			refreshing: false
 		};
 	},
@@ -15670,6 +15689,11 @@ exports.default = {
 				}
 			});
 		}
+		this.getData(this.KEY_USER, function (res) {
+			if (res) {
+				_this4.userRole = JSON.parse(res).role;
+			}
+		});
 	},
 
 	components: {
@@ -15757,7 +15781,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: ["input"]
   }, [_vm._v(_vm._s(_vm.plan.plDate))])]), _c('div', {
     staticClass: ["button-group"]
-  }, [_c('button', [_c('text', {
+  }, [(_vm.userRole == _vm.ROLE_ADMIN) ? _c('button', [_c('text', {
     staticClass: ["util"],
     staticStyle: {
       backgroundColor: "rgba(255,0,0,0.5)"
@@ -15765,7 +15789,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     on: {
       "click": _vm.delPlanAlert
     }
-  }, [_vm._v("删除计划")])]), _c('button', [_c('text', {
+  }, [_vm._v("删除计划")])]) : _vm._e(), (_vm.userRole == _vm.ROLE_ADMIN) ? _c('button', [_c('text', {
     staticClass: ["util"],
     staticStyle: {
       backgroundColor: "rgb(0, 191, 255)"
@@ -15773,7 +15797,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     on: {
       "click": _vm.modifyPlan
     }
-  }, [_vm._v("修改计划")])]), _c('button', [_c('text', {
+  }, [_vm._v("修改计划")])]) : _vm._e(), _c('button', [_c('text', {
     staticClass: ["util"],
     staticStyle: {
       backgroundColor: "rgb(217, 165, 32)"

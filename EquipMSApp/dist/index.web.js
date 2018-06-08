@@ -513,7 +513,7 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 exports.default = {
-	server_ip: 'http://192.168.1.105:8080',
+	server_ip: 'http://192.168.43.135:8080',
 	pageSize: 20
 };
 
@@ -587,7 +587,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\components\\MiniBar.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\components\\MiniBar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] MiniBar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -8906,7 +8906,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\menu\\Home.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\menu\\Home.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Home.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -8950,7 +8950,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\menu\\Menu.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\menu\\Menu.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Menu.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -9342,7 +9342,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\menu\\Me.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\menu\\Me.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Me.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -20606,10 +20606,19 @@ exports.default = {
 			KEY_TOKEN: 'ems_token',
 			KEY_EQUIPTYPE: 'ems_equipType',
 			KEY_EQUIPSTATE: 'ems_equipState',
-			KEY_FACTORYLIST: 'ems_factoryList'
+			KEY_FACTORYLIST: 'ems_factoryList',
+			ROLE_ADMIN: '1001'
 		};
 	},
 	methods: {
+		checkMights: function checkMights(page, mights) {
+			for (var i = 0; i < mights.length; i++) {
+				if (page == mights[i]) {
+					return true;
+				}
+			}
+			return false;
+		},
 		redirect: function redirect(page) {
 			this.$router.replace({ name: page });
 		},
@@ -23634,7 +23643,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\Welcome.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\Welcome.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Welcome.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -23855,7 +23864,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\Login.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\Login.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Login.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -23935,8 +23944,8 @@ exports.default = {
   data: function data() {
     return {
       user: {
-        username: 'ss26',
-        password: '123456'
+        username: '',
+        password: ''
       }
     };
   },
@@ -24001,7 +24010,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\components\\Alert.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\components\\Alert.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Alert.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -24122,7 +24131,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-dialog\\index.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-dialog\\index.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -24428,7 +24437,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-overlay\\index.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-overlay\\index.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -24833,7 +24842,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\components\\ListSelect.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\components\\ListSelect.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ListSelect.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -25284,7 +25293,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\menu\\Main.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\menu\\Main.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Main.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -25460,7 +25469,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n.home-wrapper[data-v-50ea2da6] {\r\n  position: absolute;\r\n  bottom: 0;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  background-color: #f0f0f0;\n}\n.mask[data-v-50ea2da6] {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  height: 6.66667rem;\n}\n.main[data-v-50ea2da6] {\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  top: 0;\n}\n.cell[data-v-50ea2da6] {\r\n  justify-content: center;\r\n  align-items: center;\n}\n.refresh[data-v-50ea2da6] {\r\n  width: 750;\r\n  display: -ms-flex;\r\n  display: -webkit-box;\r\n  display: -webkit-flex;\r\n  display: flex;\r\n  align-items: center;\n}\n.indicator-text[data-v-50ea2da6] {\r\n  color: #888888;\r\n  margin-top: 0.13333rem;\r\n  text-align: center;\n}\n.indicator[data-v-50ea2da6] {\r\n  margin-top: 0.21333rem;\r\n  height: 0.53333rem;\r\n  width: 0.53333rem;\r\n  color: blue;\n}\n.block[data-v-50ea2da6] {\r\n  width: 9.73333rem;\r\n  margin-left: 0.13333rem;\r\n  border-width: 1px;\r\n  margin-top: 0.13333rem;\r\n  border-radius: 0.13333rem;\r\n  padding-left: 0.53333rem;\r\n  padding-right: 0.53333rem;\r\n  padding-top: 0.26667rem;\r\n  padding-bottom: 0.26667rem;\r\n  background-color: rgba(222, 184, 135, 0.5);\n}\n.block-web[data-v-50ea2da6] {\r\n  width: 9.73333rem;\r\n  margin-left: 0.13333rem;\r\n  border-width: 1px;\r\n  margin-top: 0.13333rem;\r\n  border-radius: 0.13333rem;\r\n  padding-left: 0.13333rem;\r\n  padding-right: 0.13333rem;\r\n  padding-top: 0.13333rem;\r\n  padding-bottom: 0.13333rem;\r\n  background-color: rgba(222, 184, 135, 0.5);\n}\n.divide[data-v-50ea2da6] {\r\n        height:0.02667rem;\r\n        width:8.66667rem;\r\n        margin-top:0.10667rem;\r\n        margin-bottom:0.10667rem;\r\n        background-color:rgba(128, 128, 128, 0.6)\n}\r\n", ""]);
+exports.push([module.i, "\n.home-wrapper[data-v-50ea2da6] {\r\n  position: absolute;\r\n  bottom: 0;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  background-color: #f0f0f0;\n}\n.mask[data-v-50ea2da6] {\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  height: 6.66667rem;\n}\n.main[data-v-50ea2da6] {\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  top: 0;\n}\n.cell[data-v-50ea2da6] {\r\n  justify-content: center;\r\n  align-items: center;\n}\n.refresh[data-v-50ea2da6] {\r\n  width: 750;\r\n  display: -ms-flex;\r\n  display: -webkit-box;\r\n  display: -webkit-flex;\r\n  display: flex;\r\n  align-items: center;\n}\n.indicator-text[data-v-50ea2da6] {\r\n  color: #888888;\r\n  margin-top: 0.13333rem;\r\n  text-align: center;\n}\n.indicator[data-v-50ea2da6] {\r\n  margin-top: 0.21333rem;\r\n  height: 0.53333rem;\r\n  width: 0.53333rem;\r\n  color: blue;\n}\n.block[data-v-50ea2da6] {\r\n  width: 9.73333rem;\r\n  margin-left: 0.13333rem;\r\n  border-width: 1px;\r\n  margin-top: 0.13333rem;\r\n  border-radius: 0.13333rem;\r\n  padding-left: 0.53333rem;\r\n  padding-right: 0.53333rem;\r\n  padding-top: 0.26667rem;\r\n  padding-bottom: 0.26667rem;\r\n  background-color: rgba(222, 184, 135, 0.5);\n}\n.block-web[data-v-50ea2da6] {\r\n  width: 9.73333rem;\r\n  margin-left: 0.13333rem;\r\n  border-width: 1px;\r\n  margin-top: 0.13333rem;\r\n  border-radius: 0.13333rem;\r\n  padding-left: 0.13333rem;\r\n  padding-right: 0.13333rem;\r\n  padding-top: 0.13333rem;\r\n  padding-bottom: 0.13333rem;\r\n  background-color: rgba(222, 184, 135, 0.5);\n}\n.divide[data-v-50ea2da6] {\r\n  height: 0.02667rem;\r\n  width: 8.66667rem;\r\n  margin-top: 0.10667rem;\r\n  margin-bottom: 0.10667rem;\r\n  background-color: rgba(128, 128, 128, 0.6);\n}\r\n", ""]);
 
 // exports
 
@@ -25483,6 +25492,7 @@ var _config2 = _interopRequireDefault(_config);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var server_ip = _config2.default.server_ip; //
+//
 //
 //
 //
@@ -25699,7 +25709,17 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "weex-type": "text"
     }
-  }, [_vm._v("设备总资产：" + _vm._s(_vm.equipment.totalAsset) + "元")])])]), _vm._v(" "), _c('section', {
+  }, [_vm._v("设备总资产：" + _vm._s(_vm.equipment.totalAsset) + "元")]), _vm._v(" "), _c('div', {
+    staticClass: "divide weex-ct weex-div",
+    attrs: {
+      "weex-type": "div"
+    }
+  }), _vm._v(" "), _c('p', {
+    staticClass: " weex-el weex-text",
+    attrs: {
+      "weex-type": "text"
+    }
+  }, [_vm._v("超出库存数量的设备种类：" + _vm._s(_vm.equipment.overNum) + "种")])])]), _vm._v(" "), _c('section', {
     staticClass: "cell weex-ct weex-cell",
     attrs: {
       "weex-type": "cell"
@@ -25852,28 +25872,24 @@ exports.default = {
             }, function () {});
         }
     },
+    created: function created() {
+        var _this = this;
+
+        this.getData(this.KEY_USER, function (res) {
+            if (res) {
+                var role = JSON.parse(res).role;
+                _this.get("/getMights", { role: role }, function (result) {
+                    if (result && result.state == "success") {
+                        _this.menus = result.data;
+                    }
+                });
+            }
+        });
+    },
     data: function data() {
         return {
             activeTab: 0,
-            menus: [{
-                name: '设备管理', page: 'EquipmentManagement',
-                submenus: [{ name: '添加设备', page: 'AddEquip', icon: '&#xe75e;', color: 'olivedrab' }, { name: '设备入库', page: 'InStock', icon: '&#xe659;', color: 'goldenrod' }, { name: '设备出库', page: 'OutStock', icon: '&#xe602;', color: 'goldenrod' }, { name: '库存列表', page: 'StockList', icon: '&#xe631;', color: 'mediumvioletred' }, { name: '设备列表', page: 'EquipList', icon: '&#xea35;', color: 'mediumvioletred' }]
-            }, {
-                name: '购置管理', page: 'BuyManagement',
-                submenus: [{ name: '添加购置计划', page: 'AddBuyPlan', icon: '&#xe75e;', color: 'goldenrod' }, { name: '购置计划列表', page: 'BuyPlanList', icon: '&#xe62e;', color: 'green' }, { name: '购置历史', page: 'BuyHistory', icon: '&#xe635;', color: 'green' }]
-            }, {
-                name: '借用管理', page: 'BorrowManagement',
-                submenus: [{ name: '可借用设备列表', page: 'CanBorrowList', icon: '&#xe618;', color: 'goldenrod' }, { name: '设备借用审核', page: 'BorrowAuditingList', icon: '&#xe649;', color: 'green' }, { name: '设备归还', page: 'BorrowedList', icon: '&#xe659;', color: 'green' }, { name: '我的申请', page: 'MyBorrowApply', icon: '&#xe63b;', color: 'green' }]
-            }, {
-                name: '维修管理', page: 'RepaireManagement',
-                submenus: [{ name: '维修信息添加', page: 'AddRepaire', icon: '&#xe63a;', color: 'goldenrod' }, { name: '设备维修历史', page: 'RepaireHistory', icon: '&#xe62e;', color: 'green' }, { name: '近期需检修设备', page: 'NeedOverhaul', icon: '&#xe624;', color: 'goldenrod' }]
-            }, {
-                name: '报废管理', page: 'GiveupManagement',
-                submenus: [{ name: '设备报废', page: 'AddGiveup', icon: '&#xe606;', color: 'goldenrod' }, { name: '报废设备列表', page: 'GiveupList', icon: '&#xe635;', color: 'green' }]
-            }, {
-                name: '用户管理', page: 'UserManagement',
-                submenus: [{ name: '添加用户', page: 'AddUser', icon: '&#xe630;', color: 'orange' }, { name: '用户列表', page: 'UserList', icon: '&#xe634;', color: 'olivedrab' }]
-            }]
+            menus: []
         };
     },
 
@@ -26210,7 +26226,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-cell\\index.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-cell\\index.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -27268,7 +27284,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\user\\AddUser.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\user\\AddUser.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] AddUser.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -27874,7 +27890,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\user\\UserList.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\user\\UserList.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] UserList.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -28171,7 +28187,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-loading\\index.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-loading\\index.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -28524,7 +28540,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-popup\\index.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-popup\\index.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -29206,7 +29222,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\user\\UserDetail.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\user\\UserDetail.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] UserDetail.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -29264,7 +29280,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n.iconfont[data-v-3aee8d5e] {\r\n  font-family: iconfont;\n}\n.userdetail-wrapper[data-v-3aee8d5e] {\r\n  background-color: #f0f0f0;\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  top: 0;\n}\n.main[data-v-3aee8d5e] {\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  top: 1.33333rem;\n}\n.cell[data-v-3aee8d5e] {\r\n  justify-content: center;\r\n  align-items: center;\n}\n.avatar[data-v-3aee8d5e] {\r\n  height: 3.2rem;\r\n  width: 3.2rem;\r\n  border-radius: 1.6rem;\r\n  margin-bottom: 0.53333rem;\r\n  margin-top: 0.53333rem;\n}\n.row[data-v-3aee8d5e] {\r\n  flex-direction: row;\r\n  width: 10rem;\r\n  padding-left: 0.8rem;\n}\n.label[data-v-3aee8d5e] {\r\n  height: 1.06667rem;\r\n  width: 2.4rem;\r\n  text-align: center;\r\n  line-height: 1.06667rem;\n}\n.input[data-v-3aee8d5e] {\r\n  height: 1.06667rem;\r\n  width: 4.8rem;\r\n  border-radius: 0.05333rem;\r\n  padding-left: 0.26667rem;\r\n  padding-right: 0.26667rem;\r\n  line-height: 1.06667rem;\n}\n.button-group[data-v-3aee8d5e] {\r\n  flex-direction: row;\r\n  margin-top: 0.53333rem;\n}\n.util[data-v-3aee8d5e] {\r\n  height: 1.06667rem;\r\n  width: 2.66667rem;\r\n  text-align: center;\r\n  line-height: 1.06667rem;\r\n  border-radius: 0.10667rem;\r\n  padding-left: 0.21333rem;\r\n  padding-right: 0.21333rem;\r\n\tmargin-left:0.13333rem;\r\n\tmargin-right:0.13333rem;\r\n  color: white;\n}\n.loading[data-v-3aee8d5e],\r\n.refresh[data-v-3aee8d5e] {\r\n  width: 750;\r\n  display: -ms-flex;\r\n  display: -webkit-box;\r\n  display: -webkit-flex;\r\n  display: flex;\r\n  align-items: center;\n}\n.indicator-text[data-v-3aee8d5e],\r\n.more[data-v-3aee8d5e] {\r\n  color: #888888;\r\n  margin-top: 0.13333rem;\r\n  text-align: center;\n}\n.indicator[data-v-3aee8d5e] {\r\n  margin-top: 0.21333rem;\r\n  height: 0.53333rem;\r\n  width: 0.53333rem;\r\n  color: blue;\n}\r\n", ""]);
+exports.push([module.i, "\n.iconfont[data-v-3aee8d5e] {\r\n  font-family: iconfont;\n}\n.userdetail-wrapper[data-v-3aee8d5e] {\r\n  background-color: #f0f0f0;\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  top: 0;\n}\n.main[data-v-3aee8d5e] {\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  top: 1.33333rem;\n}\n.cell[data-v-3aee8d5e] {\r\n  justify-content: center;\r\n  align-items: center;\n}\n.avatar[data-v-3aee8d5e] {\r\n  height: 3.2rem;\r\n  width: 3.2rem;\r\n  border-radius: 1.6rem;\r\n  margin-bottom: 0.53333rem;\r\n  margin-top: 0.53333rem;\n}\n.row[data-v-3aee8d5e] {\r\n  flex-direction: row;\r\n  width: 10rem;\r\n  padding-left: 0.8rem;\n}\n.label[data-v-3aee8d5e] {\r\n  height: 1.06667rem;\r\n  width: 2.4rem;\r\n  text-align: center;\r\n  line-height: 1.06667rem;\n}\n.input[data-v-3aee8d5e] {\r\n  height: 1.06667rem;\r\n  width: 4.8rem;\r\n  border-radius: 0.05333rem;\r\n  padding-left: 0.26667rem;\r\n  padding-right: 0.26667rem;\r\n  line-height: 1.06667rem;\n}\n.button-group[data-v-3aee8d5e] {\r\n  flex-direction: row;\r\n  margin-top: 0.53333rem;\n}\n.util[data-v-3aee8d5e] {\r\n  height: 1.06667rem;\r\n  width: 2.66667rem;\r\n  text-align: center;\r\n  line-height: 1.06667rem;\r\n  border-radius: 0.10667rem;\r\n  padding-left: 0.21333rem;\r\n  padding-right: 0.21333rem;\r\n  margin-left: 0.13333rem;\r\n  margin-right: 0.13333rem;\r\n  color: white;\n}\n.loading[data-v-3aee8d5e],\r\n.refresh[data-v-3aee8d5e] {\r\n  width: 750;\r\n  display: -ms-flex;\r\n  display: -webkit-box;\r\n  display: -webkit-flex;\r\n  display: flex;\r\n  align-items: center;\n}\n.indicator-text[data-v-3aee8d5e],\r\n.more[data-v-3aee8d5e] {\r\n  color: #888888;\r\n  margin-top: 0.13333rem;\r\n  text-align: center;\n}\n.indicator[data-v-3aee8d5e] {\r\n  margin-top: 0.21333rem;\r\n  height: 0.53333rem;\r\n  width: 0.53333rem;\r\n  color: blue;\n}\r\n", ""]);
 
 // exports
 
@@ -29350,7 +29366,8 @@ exports.default = {
 		return {
 			user: { avatar: '/avatar/default_avatar.jpg' },
 			refreshing: false,
-			userDept: ''
+			userDept: '',
+			userRole: ''
 		};
 	},
 
@@ -29406,6 +29423,7 @@ exports.default = {
 		this.getData(this.KEY_USER, function (res) {
 			if (res) {
 				_this3.userDept = JSON.parse(res).dept;
+				_this3.userRole = JSON.parse(res).role;
 			}
 		});
 	},
@@ -29591,7 +29609,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "weex-type": "text"
     }
-  }, [_vm._v(_vm._s(_vm.user.rolename))])]), _vm._v(" "), (_vm.user.dept == _vm.userDept) ? _c('div', {
+  }, [_vm._v(_vm._s(_vm.user.rolename))])]), _vm._v(" "), (_vm.user.dept == _vm.userDept && _vm.userRole == _vm.ROLE_ADMIN) ? _c('div', {
     staticClass: "button-group weex-ct weex-div",
     attrs: {
       "weex-type": "div"
@@ -29679,7 +29697,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\user\\ModifyUser.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\user\\ModifyUser.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ModifyUser.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -30300,7 +30318,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\equip\\AddEquip.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\AddEquip.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] AddEquip.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -30472,6 +30490,8 @@ exports.default = {
         _this2.stateList = JSON.parse(res);
       }
     });
+    var date = new Date();
+    this.equip.buyDate = '' + date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
   },
 
   components: {
@@ -31046,7 +31066,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\equip\\InStock.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\InStock.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] InStock.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -31407,7 +31427,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\equip\\OutStock.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\OutStock.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] OutStock.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -31465,7 +31485,7 @@ exports = module.exports = __webpack_require__(1)(false);
 
 
 // module
-exports.push([module.i, "\n.iconfont[data-v-3fd473f9] {\r\n  font-family: iconfont;\n}\n.outstock-wrapper[data-v-3fd473f9] {\r\n  background-color: #f0f0f0;\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  top: 0;\n}\n.main[data-v-3fd473f9] {\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  top: 1.86667rem;\n}\n.row[data-v-3fd473f9] {\r\n  flex-direction: row;\r\n  background-color: #fff;\r\n  padding-left: 0.8rem;\r\n  border-bottom-width: 1px;\r\n  border-bottom-color: rgba(128, 128, 128, 0.5);\n}\n.label[data-v-3fd473f9] {\r\n  height: 1.06667rem;\r\n  width: 2.4rem;\r\n  text-align: center;\r\n  line-height: 1.06667rem;\n}\n.input[data-v-3fd473f9] {\r\n  height: 1.06667rem;\r\n  width: 4.8rem;\r\n  padding-left: 0.26667rem;\r\n  padding-right: 0.26667rem;\n}\n.textarea[data-v-3fd473f9] {\r\n  width: 4.8rem;\r\n  border-width: 1px;\r\n  border-color: cadetblue;\r\n  border-radius: 0.05333rem;\r\n  padding-left: 0.13333rem;\r\n  padding-right: 0.13333rem;\r\n  padding-top: 0.13333rem;\r\n  padding-bottom: 0.13333rem;\n}\n.button[data-v-3fd473f9] {\r\n  height: 1.06667rem;\r\n  width: 4.8rem;\r\n  border-radius: 0.05333rem;\r\n  background-color: orangered;\r\n  justify-content: center;\r\n  align-items: center;\r\n  margin-left: 2.6rem;\r\n  margin-top: 1.33333rem;\n}\n.button-text[data-v-3fd473f9] {\r\n  color: #ffffff;\r\n  font-size: 0.48rem;\n}\n.required[data-v-3fd473f9] {\r\n  height: 1.06667rem;\r\n  line-height: 1.06667rem;\r\n  position: absolute;\r\n  right: 0.8rem;\r\n  color: orangered;\n}\r\n", ""]);
+exports.push([module.i, "\n.iconfont[data-v-3fd473f9] {\r\n  font-family: iconfont;\n}\n.outstock-wrapper[data-v-3fd473f9] {\r\n  background-color: #f0f0f0;\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  top: 0;\n}\n.main[data-v-3fd473f9] {\r\n  position: absolute;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  top: 1.86667rem;\n}\n.row[data-v-3fd473f9] {\r\n  flex-direction: row;\r\n  background-color: #fff;\r\n  padding-left: 0.8rem;\r\n  border-bottom-width: 1px;\r\n  border-bottom-color: rgba(128, 128, 128, 0.5);\n}\n.label[data-v-3fd473f9] {\r\n  height: 1.06667rem;\r\n  width: 2.4rem;\r\n  text-align: center;\r\n  line-height: 1.06667rem;\n}\n.input[data-v-3fd473f9] {\r\n  height: 1.06667rem;\r\n  width: 4.8rem;\r\n  padding-left: 0.26667rem;\r\n  padding-right: 0.26667rem;\n}\n.textarea[data-v-3fd473f9] {\r\n  width: 4.8rem;\r\n  border-width: 1px;\r\n  border-color: cadetblue;\r\n  border-radius: 0.05333rem;\r\n  padding-left: 0.13333rem;\r\n  padding-right: 0.13333rem;\r\n  padding-top: 0.13333rem;\r\n  padding-bottom: 0.13333rem;\n}\n.button[data-v-3fd473f9] {\r\n  height: 1.06667rem;\r\n  width: 4.8rem;\r\n  border-radius: 0.05333rem;\r\n  background-color: orangered;\r\n  justify-content: center;\r\n  align-items: center;\r\n  margin-left: 2.6rem;\r\n  margin-top: 1.33333rem;\n}\n.button-text[data-v-3fd473f9] {\r\n  color: #ffffff;\r\n  font-size: 0.48rem;\r\n  text-align: center;\n}\n.required[data-v-3fd473f9] {\r\n  height: 1.06667rem;\r\n  line-height: 1.06667rem;\r\n  position: absolute;\r\n  right: 0.8rem;\r\n  color: orangered;\n}\r\n", ""]);
 
 // exports
 
@@ -31813,7 +31833,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\equip\\StockList.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\StockList.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] StockList.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32186,7 +32206,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-popover\\index.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\node_modules\\weex-ui\\packages\\wxc-popover\\index.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -33020,7 +33040,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\equip\\EquipList.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\EquipList.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] EquipList.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -33756,7 +33776,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\equip\\EquipDetail.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\EquipDetail.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] EquipDetail.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -33918,7 +33938,8 @@ exports.default = {
 		return {
 			equip: { image: '/images/default.jpg' },
 			refreshing: false,
-			userDept: ''
+			userDept: '',
+			userRole: ''
 		};
 	},
 
@@ -33957,6 +33978,7 @@ exports.default = {
 	},
 	computed: {
 		image: function image() {
+			console.log(server_ip + this.equip.image);
 			return server_ip + this.equip.image;
 		}
 	},
@@ -33966,6 +33988,8 @@ exports.default = {
 		var params = this.getParams();
 		if (params && params.id) {
 			this.get('/getEquipmentInfo', { id: params.id }, function (result) {
+				console.log(result);
+
 				if (result && result.state == 'success') {
 					_this3.equip = result.data;
 				}
@@ -33974,6 +33998,7 @@ exports.default = {
 		this.getData(this.KEY_USER, function (res) {
 			if (res) {
 				_this3.userDept = JSON.parse(res).dept;
+				_this3.userRole = JSON.parse(res).role;
 			}
 		});
 	},
@@ -34226,7 +34251,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "weex-type": "text"
     }
-  }, [_vm._v(_vm._s(_vm.equip.age) + "天")])]), _vm._v(" "), (_vm.equip.buyDept == _vm.userDept) ? _c('div', {
+  }, [_vm._v(_vm._s(_vm.equip.age) + "天")])]), _vm._v(" "), (_vm.equip.buyDept == _vm.userDept && _vm.userRole == _vm.ROLE_ADMIN) ? _c('div', {
     staticClass: "button-group weex-ct weex-div",
     attrs: {
       "weex-type": "div"
@@ -34314,7 +34339,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\equip\\ModifyEquip.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\equip\\ModifyEquip.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ModifyEquip.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -34422,7 +34447,7 @@ exports.default = {
         this.post("/modifyEquip", this.equip, function (result) {
           if (result && result.state == 'success') {
             _this.$refs.successAlert.show("修改成功");
-          } else if (result && result.state == 'error') {
+          } else if (result && result.state == 'exception') {
             _this.$refs.alert.show("添加失败，请重新添加");
           }
         });
@@ -35096,7 +35121,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\buy\\AddBuyPlan.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\AddBuyPlan.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] AddBuyPlan.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -35585,7 +35610,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\buy\\BuyPlanList.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\BuyPlanList.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] BuyPlanList.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -36016,7 +36041,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\buy\\BuyPlanDetail.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\BuyPlanDetail.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] BuyPlanDetail.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -36153,6 +36178,7 @@ exports.default = {
 	data: function data() {
 		return {
 			plan: {},
+			userRole: '',
 			refreshing: false
 		};
 	},
@@ -36214,6 +36240,11 @@ exports.default = {
 				}
 			});
 		}
+		this.getData(this.KEY_USER, function (res) {
+			if (res) {
+				_this4.userRole = JSON.parse(res).role;
+			}
+		});
 	},
 
 	components: {
@@ -36378,7 +36409,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "weex-type": "div"
     }
-  }, [_c('button', [_c('p', {
+  }, [(_vm.userRole == _vm.ROLE_ADMIN) ? _c('button', [_c('p', {
     staticClass: "util weex-el weex-text",
     staticStyle: {
       "background-color": "rgba(255,0,0,0.5)"
@@ -36394,7 +36425,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         return _vm.delPlanAlert($event)
       }
     }
-  }, [_vm._v("删除计划")])]), _vm._v(" "), _c('button', [_c('p', {
+  }, [_vm._v("删除计划")])]) : _vm._e(), _vm._v(" "), (_vm.userRole == _vm.ROLE_ADMIN) ? _c('button', [_c('p', {
     staticClass: "util weex-el weex-text",
     staticStyle: {
       "background-color": "rgb(0,191,255)"
@@ -36410,7 +36441,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         return _vm.modifyPlan($event)
       }
     }
-  }, [_vm._v("修改计划")])]), _vm._v(" "), _c('button', [_c('p', {
+  }, [_vm._v("修改计划")])]) : _vm._e(), _vm._v(" "), _c('button', [_c('p', {
     staticClass: "util weex-el weex-text",
     staticStyle: {
       "background-color": "rgb(217,165,32)"
@@ -36477,7 +36508,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\buy\\ModifyBuyPlan.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\ModifyBuyPlan.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] ModifyBuyPlan.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -37043,7 +37074,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\buy\\EndBuyPlan.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\EndBuyPlan.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] EndBuyPlan.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -37540,7 +37571,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\buy\\BuyHistory.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\BuyHistory.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] BuyHistory.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38032,7 +38063,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\buy\\BuyHistoryDetail.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\buy\\BuyHistoryDetail.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] BuyHistoryDetail.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -38510,7 +38541,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\borrow\\CanBorrowList.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\borrow\\CanBorrowList.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] CanBorrowList.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -39213,7 +39244,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\borrow\\BorrowAuditingList.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\borrow\\BorrowAuditingList.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] BorrowAuditingList.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -39630,7 +39661,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\borrow\\BorrowDetail.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\borrow\\BorrowDetail.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] BorrowDetail.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -40108,7 +40139,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\borrow\\BorrowedList.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\borrow\\BorrowedList.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] BorrowedList.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -40616,7 +40647,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\borrow\\BorrowedDetail.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\borrow\\BorrowedDetail.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] BorrowedDetail.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -41116,7 +41147,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\borrow\\MyBorrowApply.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\borrow\\MyBorrowApply.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] MyBorrowApply.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -41546,7 +41577,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\giveup\\AddGiveup.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\giveup\\AddGiveup.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] AddGiveup.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -41975,7 +42006,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\giveup\\GiveupList.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\giveup\\GiveupList.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] GiveupList.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -42456,7 +42487,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\giveup\\GiveupDetail.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\giveup\\GiveupDetail.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] GiveupDetail.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -42965,7 +42996,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\repaire\\AddRepaire.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\repaire\\AddRepaire.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] AddRepaire.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -43477,7 +43508,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\repaire\\NeedOverhaul.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\repaire\\NeedOverhaul.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] NeedOverhaul.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -43954,7 +43985,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\repaire\\RepaireHistory.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\repaire\\RepaireHistory.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] RepaireHistory.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -44438,7 +44469,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\views\\repaire\\RepaireDetail.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\views\\repaire\\RepaireDetail.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] RepaireDetail.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -44898,7 +44929,7 @@ var Component = __webpack_require__(0)(
   /* moduleIdentifier (server only) */
   null
 )
-Component.options.__file = "D:\\EquipMSApp\\src\\index.vue"
+Component.options.__file = "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\src\\index.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
 

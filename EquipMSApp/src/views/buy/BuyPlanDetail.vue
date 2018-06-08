@@ -36,8 +36,8 @@
 			<text class="input">{{plan.plDate}}</text>
 		</div>
 		<div class="button-group">
-			<button><text @click="delPlanAlert" class="util" style="background-color:rgba(255,0,0,0.5)">删除计划</text></button>
-			<button><text @click="modifyPlan" class="util" style="background-color:rgb(0, 191, 255)">修改计划</text></button>
+			<button v-if="userRole==ROLE_ADMIN"><text @click="delPlanAlert" class="util" style="background-color:rgba(255,0,0,0.5)">删除计划</text></button>
+			<button v-if="userRole==ROLE_ADMIN"><text @click="modifyPlan" class="util" style="background-color:rgb(0, 191, 255)">修改计划</text></button>
 			<button><text @click="endPlan" class="util" style="background-color:rgb(217, 165, 32)">计划完成</text></button>
 		</div>
 		</cell>
@@ -55,6 +55,7 @@ export default {
 	data() {
 		return {
 			plan: {},
+			userRole: '',
 			refreshing: false
 		}
 	},
@@ -108,6 +109,11 @@ export default {
 				}
 			})
 		}
+		this.getData(this.KEY_USER, (res) => {
+			if (res) {
+				this.userRole = JSON.parse(res).role
+			}
+		})
 	},
 	components: {
 		MiniBar,

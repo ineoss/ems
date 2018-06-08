@@ -1,5 +1,17 @@
 [
     {
+        "merged": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v21\\ic_back.xml",
+        "source": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi-v21\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v21\\ic_close.xml",
+        "source": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi-v21\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v21\\ic_photo.xml",
+        "source": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi-v21\\ic_photo.xml"
+    },
+    {
         "merged": "D:\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v21\\ic_close.xml",
         "source": "D:\\EquipMSApp\\platforms\\android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi-v21\\ic_close.xml"
     },
@@ -10,6 +22,10 @@
     {
         "merged": "D:\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v21\\ic_open.xml",
         "source": "D:\\EquipMSApp\\platforms\\android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi-v21\\ic_open.xml"
+    },
+    {
+        "merged": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v21\\ic_open.xml",
+        "source": "C:\\Users\\SunShuai\\Desktop\\ems\\EquipMSApp\\platforms\\android\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi-v21\\ic_open.xml"
     },
     {
         "merged": "D:\\EquipMSApp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v21\\ic_photo.xml",

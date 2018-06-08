@@ -14017,6 +14017,7 @@ exports.default = {
 	},
 	computed: {
 		image: function image() {
+			console.log(server_ip + this.equip.image);
 			return server_ip + this.equip.image;
 		}
 	},
@@ -14314,7 +14315,7 @@ exports.default = {
         this.post("/modifyEquip", this.equip, function (result) {
           if (result && result.state == 'success') {
             _this.$refs.successAlert.show("修改成功");
-          } else if (result && result.state == 'error') {
+          } else if (result && result.state == 'exception') {
             _this.$refs.alert.show("添加失败，请重新添加");
           }
         });
@@ -15626,6 +15627,7 @@ exports.default = {
 	data: function data() {
 		return {
 			plan: {},
+			userRole: '',
 			refreshing: false
 		};
 	},
@@ -15687,6 +15689,11 @@ exports.default = {
 				}
 			});
 		}
+		this.getData(this.KEY_USER, function (res) {
+			if (res) {
+				_this4.userRole = JSON.parse(res).role;
+			}
+		});
 	},
 
 	components: {
@@ -15774,7 +15781,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: ["input"]
   }, [_vm._v(_vm._s(_vm.plan.plDate))])]), _c('div', {
     staticClass: ["button-group"]
-  }, [_c('button', [_c('text', {
+  }, [(_vm.userRole == _vm.ROLE_ADMIN) ? _c('button', [_c('text', {
     staticClass: ["util"],
     staticStyle: {
       backgroundColor: "rgba(255,0,0,0.5)"
@@ -15782,7 +15789,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     on: {
       "click": _vm.delPlanAlert
     }
-  }, [_vm._v("删除计划")])]), _c('button', [_c('text', {
+  }, [_vm._v("删除计划")])]) : _vm._e(), (_vm.userRole == _vm.ROLE_ADMIN) ? _c('button', [_c('text', {
     staticClass: ["util"],
     staticStyle: {
       backgroundColor: "rgb(0, 191, 255)"
@@ -15790,7 +15797,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     on: {
       "click": _vm.modifyPlan
     }
-  }, [_vm._v("修改计划")])]), _c('button', [_c('text', {
+  }, [_vm._v("修改计划")])]) : _vm._e(), _c('button', [_c('text', {
     staticClass: ["util"],
     staticStyle: {
       backgroundColor: "rgb(217, 165, 32)"

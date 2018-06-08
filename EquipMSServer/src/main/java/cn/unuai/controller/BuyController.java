@@ -34,11 +34,11 @@ public class BuyController {
     }
 
     @GetMapping("/getBuyPlanList")
-    public Res getBuyPlanList(int pageNum, int pageSize, int dept) {
+    public Res getBuyPlanList(int pageNum, int pageSize) {
         try {
             int offset = (pageNum - 1) * pageSize;
-            List p = buyDao.getBuyPlanList(dept, offset, pageSize);
-            int total = buyDao.getBuyPlanListCount(dept);
+            List p = buyDao.getBuyPlanList(offset, pageSize);
+            int total = buyDao.getBuyPlanListCount();
             int totalPage = Util.getTotalPage(total, pageSize);
             String keys[] = {"id", "name", "equipName", "equipType", "plDate", "typeName"};
             Map map = new HashMap();
